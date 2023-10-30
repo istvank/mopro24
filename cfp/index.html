@@ -9,7 +9,9 @@
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="Modeling, Production">
-    <title>Call for Papers | MoPro'22</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>Call for Papers | MoPro'24</title>
 </head>
 
 <body>
@@ -17,11 +19,11 @@
     <div class="banner">
         <img src="assets/h1.jpg" alt="MoPro Workshop" style="width:100%">
         <div class="top-left">
-            <span class="year"> 1<sup>st</sup></span> <span class="title1">Mo</span><span class="title2">Pro</span>  <span class="year"> Workshop 2022</span><br>
+            <span class="year">2<sup>nd</sup></span> <span class="title1">Mo</span><span class="title2">Pro</span>  <span class="year"> Workshop 2024</span><br>
 
         </div>
         <div class="bottom-right">
-            June, 28 '22 <br> Hamburg
+            March, 12 '24 <br> Potsdam
         </div>
     </div>
 
@@ -33,9 +35,9 @@
             <td class="navigation">
                 <a class="current" title="Call for Papers" href="cfp">Call for Papers</a>
             </td>
-            <td class="navigation">
+            <!-- <td class="navigation">
                 <a title="Program" href="program">Program</a>
-            </td>
+            </td> -->
         </tr>
     </table>
 
@@ -44,75 +46,58 @@
     <p>
         The production domain is permeated by heterogeneous data sources, a variety of IT systems, and complex
         industrial use cases - aspects that offer a very exciting field for research. Modern production systems
-        have a large number of sensors for monitoring industrial plants which help to gain an insight into a
-        system’s state. Sensors over time create data sets, that may be very detailed, need to be preprocessed
-        such as time reduced, quantitatively, and qualitatively reduced, e.g.black and white instead of colored
-        pictures, and enriched with metadata. To be able to define the datasets needed, we have to handle all
-        these dimensions.
+        have a large number of sensors for monitoring industrial plants, which help to gain an insight into a
+        system’s state. Sensors produce large data sets with intricate details, necessitating comprehensive
+        preprocessing. This preprocessing includes mechanisms to reduce the data quantity, including temporal
+        and qualitative reduction of data. For instance, colored images may be converted to black-and-white ones,
+        and information needs to be enriched with metadata. We have to handle all of these dimensions to be able
+        to define the data sets that are needed.
     </p>
     <p>
-        Our approach to handle these dimensions is the concept of digital shadows.
-        A digital shadow is a set of contextual data traces and their aggregation and abstraction collected for
-        a specific purpose with respect to an original system. These digital shadows are then used by digital twins.
-        For us, a digital twin is a set of models of the system, a set of digital shadows and their aggregation
-        and abstraction collected from a system, and a set of services that allow using the data and models
-        purposefully with respect to the original system.
-        Within
-        <a target="_blank" href="https://www.se-rwth.de/publications/A-Conceptual-Model-for-Digital-Shadows-in-Industry-and-its-Application.pdf">[BBD+21]</a>,
-        a conceptual model to describe
-        digital shadows, data structures tailored to exploit models and data in smart manufacturing, was presented
-        through a metamodel and its notion space. Using models helps handle this complexity in real-world scenarios.
-    </p>
-    <p>
-        The MoPro'22 Workshop aims to be a platform for researchers and practitioners within the production domain
-        to exchange their modeling
-        techniques, interesting use cases and challenges.
+        Despite the abundance of data and the consequent potential for optimization, current approaches for
+        dealing with the complexity of production systems are often ad-hoc, or siloed—both across disparate
+        domains and through varying layers of information architecture, from machine-level execution systems to
+        business processes. The primary goal of this workshop is to bring different research perspectives
+        together and discuss use cases, needed modeling methods, and current research on modeling in (and for)
+        production. We seek to explore a range of methods and tools, with a focus on their applicability for
+        real-world production systems. Ultimately, this workshop strives to pave the way for a new generation of
+        modeling tools and techniques that are capable of capturing the multi-faceted complexity of modern
+        production environments, thereby enabling more informed decision-making processes and, in turn,
+        elevating both productivity and sustainability.
     </p>
     <p>
         Topics include the following but are not limited to:
     </p>
 
         <ul>
-            <li>Modeling Digital Shadows</li>
-            <li>Modeling Processes, Machines, Material, Products</li>
+            <li>Modeling Machines, Material, Processes, Products, and Safety</li>
             <li>(Domain-Specific) Modeling Languages for Production</li>
-            <li>Model-driven Software Engineering of Digital Twins for Production</li>
-            <li>Ontologies for Manufacturing</li>
-            <li>Modeling FAIR Data Principles for Manufacturing Data</li>
+            <li>Model-driven Software Engineering for Production</li>
+            <li>Model-driven Software Engineering for Digital Twins</li>
+            <li>BPMN for Production</li>
+            <li>Model-driven Abstractions of Production Data</li>
             <li>Modeling Human Factors</li>
-            <li>Model-Driven Data Exchange between Enterprises</li>
             <li>Modeling Sustainability in Production Processes and Products</li>
-            <li>Model-Driven Resilience</li>
+            <li>Modeling For Simplified Data Analysis</li>
+            <li>Model-Driven Data Exchange in Production Ecosystems</li>
+            <li>Modeling Digital Shadows</li>
+            <li>Ontologies for Manufacturing</li>
         </ul>
 
     <p>
-        The workshop will be held for the first time in the context of the
-        <a target="_blank" href="https://qfam.gi.de/modellierung2022">Modellierung'22</a> conference in Hamburg, Germany.
+        The workshop will be held for the second time in the context of the
+        <a href="https://bpt.hpi.uni-potsdam.de/modellierung2024" target="_blank">Modellierung'24</a> conference in Potsdam, Germany.
     </p>
 
     <h3>Submission Formats</h3>
 
         <ul>
-            <li><b>Research Paper:</b> Desribe your recent research as a short paper (5 pages) or full paper (14 pages).</li>
-            <li><b>Novel Directions Talk</b>: Proposals for talks (2 pages) that motivate a novel research direction,
+            <li><b>Research Paper:</b> short paper with 5 pages or full paper with 14 pages.</li>
+            <li><b>Use Case Description:</b> describe one concrete modeling use case in production and its impact
+                for research and/or industry.</li>
+            <li><b>Novel Directions Talk (2 pages):</b> Proposals for talks that motivate a novel research direction,
                 outline the research gaps to address, and carve out major challenges. These talks shall serve as a
-                stimulus for discussions as part of a dedicated slot in the workshop program.</li>
-            <li><b>Digital Shadow Use Case</b>: Authors are welcome to describe one concrete Use Case of a
-                digital shadow (3-6 pages) within the production domain.
-                We strongly encourage the authors to discuss their use case based on the conceptual model for digital
-                shadows provided in <a target="_blank" href="https://www.se-rwth.de/publications/A-Conceptual-Model-for-Digital-Shadows-in-Industry-and-its-Application.pdf">[BBD+21]</a>.
-                <br><br> Please use the following structure:
-                <ul>
-                    <li><i>Motivation: </i>Why do you need a digital shadow?</li>
-                    <li><i>Use case description: </i> For what do you need a digital shadow? Describe your uses case
-                        in a way non-domain experts are able to understand it.</li>
-                    <li><i>The Digital Shadow: </i> How does the digital shadow look like? Describe relevant assets,
-                        data traces, data points, meta-data and models. </li>
-                    <li><i>Impact: </i>How does this digital shadow support your business and processes?</li>
-                    <li><i>Discussion of challenges & threats: </i>What do you consider as challenges
-                        in using the digital shadow?</li>
-                    <li><i>Conclusion</i></li>
-                </ul>
+                stimulus for discussions as part of a dedicated slot in the workshop program. 
             </li>
         </ul>
 
@@ -126,46 +111,29 @@
     <p>
         The papers will be peer-reviewed by the program committee and accepted publication will be published within the
         common workshop proceedings at the <a target="_blank" href="https://dl.gi.de">Digital Library</a> of the
-        <a target="_blank" href="https://gi.de">German Informatics Society</a>. <br><br>
-        Submission Link: <a target="_blank" href="https://easychair.org/conferences/?conf=mopro22"> EasyChair</a>
+        <a target="_blank" href="https://gi.de">German Informatics Society</a> (subject to changes). <br><br>
+        Submission Link: <a target="_blank" href="https://easychair.org/conferences/?conf=mopro24"> EasyChair</a>
     </p>
     <h3>Important Dates</h3>
     <ul>
-        <li><crossedred>23.04.2022</crossedred><b> 02.05.2022:</b> Submission Deadline </li>
-        <li><crossedred>14.05.2022</crossedred><b> 20.05.2022:</b> Author Notification</li>
-        <li><crossedred>26.05.2022</crossedred><b> 01.06.2022:</b> Camera-ready deadline</li>
-        <li><b>28.06.2022:</b> Presentations</li>
+        <li><crossedred></crossedred><b>18.12.2023:</b> Submission Deadline </li>
+        <li><crossedred></crossedred><b>05.02.2024:</b> Author Notification</li>
+        <li><crossedred></crossedred><b>26.02.2024:</b> Camera-ready deadline</li>
+        <li><b>12.03.2024:</b> Presentations</li>
     </ul>
 
     <h3>Program Committee</h3>
         <ul>
-            <li>Pascal Bibow, RWTH Aachen University (IKV) </li>
-            <li>Philipp Niemietz, RWTH Aachen University (WZL)</li>
-            <li>Felix Ocker, Technical University of Munich </li>
+            <li>Philipp Brauner, RWTH Aachen University</li>
+            <li>Friederike Bruns, OFFIS Oldenburg</li>
+            <li>Sandra Greiner, Universität Bern</li>
+            <li>Malte Heithoff, RWTH Aachen University</li>
+            <li>Kristof Meixner, TU Wien</li>
             <li>Rick Rabiser, JKU Linz</li>
-            <li>Bianca Wiesmayr, JKU Linz</li>
-            <li>Manuel Wimmer, JKU Linz</li>
+            <li>Jörg Walter, OFFIS Oldenburg</li>
             <li>Andreas Wortmann, Universität Stuttgart</li>
             <li>Alois Zoitl, JKU Linz</li>
         </ul>
-
-    <h3>References</h3>
-
-    <ul>
-        <li><b>[BBD+21]</b> F. Becker, P. Bibow, M. Dalibor, A. Gannouni, V. Hahn, C. Hopmann, M. Jarke, I.
-        Koren, M. Kröger, J. Lipp, J. Maibaum, J. Michael, B. Rumpe, P. Sapel, N. Schäfer, G. J. Schmitz,
-        G. Schuh, A. Wortmann: <i>A Conceptual Model for Digital Shadows in Industry and its Application.</i>
-        In: A. Ghose, J. Horkoff, V. E. Silva Souza, J. Parsons, J. Evermann, editors, Conceptual Modeling,
-        ER 2021, pp. 271-281, Springer, Oct. 2021. URL:
-        <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-030-89022-3_22">https://link.springer.com/chapter/10.1007/978-3-030-89022-3_22</a></li>
-        <li><b>[BDJ+22]</b>
-        P. Brauner, M. Dalibor, M. Jarke, I. Kunze, I. Koren, G. Lakemeyer, M. Liebenberg, J. Michael, J. Pennekamp,
-        C. Quix, B. Rumpe, W.M.P. van der Aalst, K. Wehrle, A. Wortmann, M. Ziefle:
-        <i>A Computer Science Perspective on Digital Transformation in Production.</i>
-        In: ACM Transactions on Internet of Things, Vol. 3(2), pp. 1-32, ACM, May 2022. URL:
-        <a target="_blank" href="https://dl.acm.org/doi/10.1145/3502265">https://dl.acm.org/doi/10.1145/3502265</a></li>
-    </ul>
-
 
     <footer>
         &copy; Workshop Organizers
